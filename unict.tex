@@ -1,0 +1,95 @@
+\input{cmd}
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+
+% QUI È POSSIBILE SCEGLIERE I MARGINI
+\newgeometry{top=3cm, bottom=4cm}
+
+\thispagestyle{empty}
+
+% QUI È POSSIBILE INSERIRE UNIVERSITÀ, DIPARTIMENTO E CORSO DI LAUREA
+\universita
+{UNIVERSITÀ DEGLI STUDI DI CATANIA}
+{DIPARTIMENTO DI MATEMATICA E INFORMATICA}
+{CORSO DI LAUREA IN INFORMATICA}
+
+% QUI È POSSIBILE INSERIRE IL NOME DELLO STUDENTE
+
+\studente{Giuseppe Criscione}
+
+% QUI È POSSIBILE INSIERIRE IL TITOLO DELLA TESI
+
+\ttitle{Il titolo della tesi}
+
+\tipo{PROVA FINALE}
+
+\fskip\fskip
+
+% QUI È POSSIBILE INSIERIRE IL NOME DEL RELATORE
+
+\relatore{Prof. Re Latore}
+
+% Nel caso sia presente anche un correlatore è possibile aggiungere
+% \correlatore{NOME CORRELATORE}
+
+\fskip
+
+% QUI È POSSIBILE INSERIRE LA DATA DI LAUREA
+\data{Novembre (si spera) 2019}
+
+\pagenumbering{roman}
+
+% QUI È POSSIBILE INSERIRE UNA DEDICA
+
+\dedica{La mia dedica.}
+
+% INDICE DEI CONTENUTI
+
+\tableofcontents
+
+% INDICE DELLE TABELLE
+
+\listoftables
+
+% INDICE DELLE IMMAGINI
+
+\listoffigures
+
+\cleardoublepage
+
+\pagenumbering{arabic}
+
+% QUI È POSSIBILE INSERIRE INTRODUZIONE, CAPITOLI E CONLCUSIONI
+
+\chapter{Introduzione}
+\input{chapters/cap1}
+
+\chapter{Titolo del capitolo 1}
+\input{chapters/cap1}
+
+\chapter{Titolo del capitolo 2}
+\input{chapters/cap2}
+
+\chapter{Conclusioni}
+\input{chapters/conclusioni}
+
+% QUI È POSSIBILE INSERIRE LA BIBLIOGRAFIA
+
+\input{chapters/bibliografia}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

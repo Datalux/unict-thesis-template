@@ -1,0 +1,113 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx, array}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\newcommand{\fskip}{
+\bigskip
+\bigskip
+\bigskip
+}
+
+\newenvironment{dedi}
+  {%\clearpage           % we want a new page          %% I commented this
+   \newpage
+   \thispagestyle{empty}% no header and footer
+   \vspace*{\stretch{1}}% some space at the top
+   \itshape             % the text is in italics
+   \raggedleft          % flush to the right margin
+  }
+  {\par % end the paragraph
+   \vspace{\stretch{3}} % space at bottom is three times that at the top
+   \clearpage           % finish off the page
+  }
+  
+  
+\newcommand{\utitlee}[3]{
+\begin{center}
+\includegraphics[scale=0.5]{images/logo.png}\\
+\bigskip
+{\LARGE UNIVERSITÀ DEGLI STUDI DI CATANIA}\\
+{\small DIPARTIMENTO DI MATEMATICA E INFORMATICA}\\ 
+{\footnotesize CORSO DI LAUREA IN INFORMATICA}\\
+\noindent\rule{12cm}{0.4pt}
+\end{center}}
+
+\newcommand{\universita}[3]{
+\begin{center}
+\includegraphics[scale=0.5]{images/logo.png}\\
+\bigskip
+{\LARGE #1}\\
+{\small #2}\\ 
+{\footnotesize #3}\\
+\noindent\rule{12cm}{0.4pt}
+\end{center}}
+
+
+\newcommand{\studente}[1]{
+\fskip
+\begin{center}
+\large #1\\
+\fskip
+\end{center}
+
+}
+
+
+\newcommand{\ttitle}[1]{
+\begin{center}
+\Large
+\textbf{#1}
+
+\fskip\fskip
+\end{center}
+}
+
+
+\newcommand{\tipo}[1]{
+\begin{center}
+
+\noindent\rule{4cm}{0.4pt}\\
+\large #1\\
+\vspace*{-0.4\baselineskip}
+\noindent\rule{4cm}{0.4pt}
+
+\end{center}
+}
+
+\newcommand{\relatore}[1]{
+\hspace*{\fill}\textbf{Relatore:}\\
+\hspace*{\fill}\large #1
+}
+
+\newcommand{\correlatore}[1]{
+\hspace*{\fill}\textbf{Correlatore:}\\
+\hspace*{\fill}\large #1
+}
+
+\newcommand{\data}[1]{
+\begin{center}
+\noindent\rule{12cm}{0.4pt}\\
+\large #1
+\end{center}
+}
+
+\newcommand{\dedica}[1]{
+\begin{dedi}
+    #1
+\end{dedi}
+}
+

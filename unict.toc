@@ -1,0 +1,6 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Introduzione}{1}% 
+\contentsline {chapter}{\numberline {2}Titolo del capitolo 1}{2}% 
+\contentsline {chapter}{\numberline {3}Titolo del capitolo 2}{3}% 
+\contentsline {chapter}{\numberline {4}Conclusioni}{4}% 
