@@ -40,6 +40,7 @@ Qui è possibile modificare la pagina iniziale della tesi tramite i segueti coma
 - `relatore`: cambia il nome del relatore
 - `correlatore`: cambia il nome del correlatore
 - `data`: cambia la data della laurea
+
 Per cambiare logo dell'università è sufficiente sovrascrivere l'immagine `images/logo.png` con il logo desiderato.
 
 ### Dedica
