@@ -4,6 +4,10 @@ Very simple template for write thesis in LaTeX.
 Questo template è pensato per semplificare la stesura della tesi con LaTeX. Il template è pensato per le tesi
 dell'Università degli Studi di Catania, ma può essere modificato per qualsiasi altro ateneo italiano.
 
+
+## Template
+![Esempio del pdf generato](https://github.com/Datalux/unict-thesis-template/blob/master/unict.pdf)
+
 # Guida all'utilizzo
 
 ## Prerequisiti
