@@ -24,7 +24,8 @@ Il template fa uso dei seguenti pacchetti:
 
 ## Download del template
 Per scaricare il template è sufficiente clonare o scaricare la zip della repository.
-Per clonare la repository lnciare da terminale:
+
+_Per clonare la repository lanciare da terminale_:
 
 `
 git clone https://github.com/Datalux/unict-thesis-template
