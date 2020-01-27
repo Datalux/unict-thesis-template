@@ -22,8 +22,14 @@ Il template fa uso dei seguenti pacchetti:
 - `float`
 - `subscaption`
 
-## Utilizzo
-Per utilizzare il template è sufficiente clonare o scaricare la repository.
+## Download del template
+Per scaricare il template è sufficiente clonare o scaricare la zip della repository.
+Per clonare la repository lnciare da terminale:
+
+`
+git clone https://github.com/Datalux/unict-thesis-template
+`
+
 
 
 ## Struttura delle cartelle
