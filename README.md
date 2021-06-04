@@ -10,6 +10,11 @@ dell'Università degli Studi di Catania, ma può essere modificato per qualsiasi
 
 # Guida all'utilizzo
 
+## Overleaf
+1. Download del template (.zip)
+2. Su Overfleaf effettuare l'upload del progetto tramite il file .zip
+3. Impostare il file `unict.text` come principale (Menu -> Main Document -> unict.tex)
+
 ## Prerequisiti
 Il template fa uso dei seguenti pacchetti:
 
