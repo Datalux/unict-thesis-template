@@ -76,3 +76,5 @@ del file principale tramite i seguenti comandi:
 \input{chapters/contenuto}
 ```
 
+### Progetti simili
+- https://github.com/UNICT-DMI/template-tesi-latex
